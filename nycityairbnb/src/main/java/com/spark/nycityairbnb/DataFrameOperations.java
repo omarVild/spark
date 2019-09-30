@@ -7,7 +7,7 @@ import org.apache.spark.sql.Dataset;
 import org.apache.spark.sql.Row;
 import org.apache.spark.sql.SQLContext;
 
-public class DataFrameOperatios {
+public class DataFrameOperations {
 	public static void main(String[] args) {
 		SparkConf conf = new SparkConf().setMaster("local").setAppName("My App");
 		JavaSparkContext sc = new JavaSparkContext(conf);
